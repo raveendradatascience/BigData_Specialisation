@@ -37,12 +37,17 @@ for these sample projects ,
 ***Problem Statement***: `Acheiving inner join using two input files`
 
 ***Dev folder***
+
 	-join1_mapper.py 
+
 	-join1_reducer.py
 
 ***Inputs folder***
+
 	-join1_FileA
-	-join1_FileB	
+
+	-join1_FileB
+	
 
 **Joins example 2**
 
@@ -51,16 +56,26 @@ for these sample projects ,
 Two different sets of input files have been given one set files have TV channel code and TV Show name. By merging two sets of data we need to achive Total viewrs count per show.
 
 ***Dev folder***
+
 	-join2_mapper.py 
+
 	-join2_reducer.py
 
+
 ***Inputs folder***
+
 	-join2_genchanA
+
 	-join2_genchanB
+
 	-join2_genchanC
+
 	-join2_gennumA
+
 	-join2_gennumB
+
 	-join2_gennumC
+
 
 ***Output folder***
 	-Total_viewer_count.txt	
