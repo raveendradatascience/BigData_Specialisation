@@ -5,8 +5,9 @@ Map Reduce with Python and Java
 
 for these sample projects , 
 
--data I worked is available in *** Inputs*** folder.
--sample code is availabel in *** Dev *** folder.
+-data I worked is available in ***Inputs*** folder.
+
+-sample code is availabel in ***Dev*** folder.
 
 ## Python Module
 
@@ -25,15 +26,15 @@ for these sample projects ,
    		-mapper /home/cloudera/jobname_mapper.py \
    		-reducer /home/cloudera/jobname_reducer.py \
    		-numReduceTasks 1
-    ** Note**:`Backward slash at end of line takes command to next line.`
+    **Note**:`Backward slash at end of line takes command to next line.`
 	      Number of reducer tasks can be configured as `-numReduceTasks 1`
 
 
 ## Joins
 
-**Joins example 1 **
+**Joins example 1**
 
-*** Problem Statement***: `Acheiving inner join using two input files`
+***Problem Statement***: `Acheiving inner join using two input files`
 ***Dev folder***
 	-join1_mapper.py 
 	-join1_reducer.py
@@ -41,9 +42,9 @@ for these sample projects ,
 	-join1_FileA
 	-join1_FileB	
 
-**Joins example 2 **
+**Joins example 2**
 
-*** Problem Statement***: `Acheiving inner join using multiple input files`
+***Problem Statement***: `Acheiving inner join using multiple input files`
 Two different sets of input files have been given one set files have TV channel code and TV Show name. By merging two sets of data we need to achive Total viewrs count per show.
 ***Dev folder***
 	-join2_mapper.py 
