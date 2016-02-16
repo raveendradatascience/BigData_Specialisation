@@ -20,13 +20,21 @@ for these sample projects ,
 	> cat join1_File*.txt | ./jobname_mapper.py | sort | ./jobname_reducer.py
 
 - for running of ***python*** code following ***hadoop*** commands have been used:
+
 	hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar \
+
    		-input /user/cloudera/input \
+
    		-output /user/cloudera/output_new_3 \
+
    		-mapper /home/cloudera/jobname_mapper.py \
+
    		-reducer /home/cloudera/jobname_reducer.py \
+
    		-numReduceTasks 1
+
     **Note**:`Backward slash at end of line takes command to next line.`
+
 	      Number of reducer tasks can be configured as `-numReduceTasks 1`
 
 
